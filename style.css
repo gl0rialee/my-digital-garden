@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+.plantbed {
+    position: relative;
+    min-height: 100vh;
+    /* Centers the 'garden' area */
+    left: max(0px, calc(50% - 500px)); 
+}
+
+.item {
+    position: absolute;
+    padding: 2px 4px;
+    background: white;
+    /* The blue dotted border from the screenshot */
+    border: 1px dotted rgba(79, 143, 254, 0.5);
+    width: max-content;
+    max-width: 300px;
+}
+
+h3, .caption {
+    margin: 0;
+    font-size: 1em;
+    font-weight: normal;
+    /* Light blue/grey color for metadata */
+    color: rgba(79, 143, 254, 0.7);
+}
+
+.caption {
+    display: block;
+    margin-bottom: 5px;
+}
+
+pre {
+    margin: 0;
+    font-family: inherit;
+}
+
+a {
+    color: rgb(84, 136, 226);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(127, 174, 255);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>glorialee.zip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="plantbed">
+
+            <div class="item" style="top: 50px; left: 100px">
+                <h3>₊˚⊹ ᰔ⋆.˚𐙚</h3>
+                <pre>sowing my file directory</pre>
+            </div>
+
+            <div class="item" style="top: 120px; left: 150px">
+                <h3>links.md</h3>
+                <div class="md">
+                    <p><a href="#">my-website.com</a></p>
+                    <p><a href="#">instagram</a></p>
+                </div>
+            </div>
+
+            <div class="item" style="top: 250px; left: 240px">
+                <h3>IMG_9488.webp</h3>
+                <p class="caption">└── <span>dia beacon</span></p>
+                <img src="images/IMG_2006.JPG" alt="Placeholder">
+            </div>
+
+            <div class="item" style="top: 550px; left: 100px;">
+                <h3>Screenshot 2026-01-30 at 12.12.37 AM.png</h3>
+                <p class="caption"> (650kB)</p>
+                <img src="images/Screenshot_Garden.png" alt="Garden Screenshot" style="width: 350px;">
+            </div>
+
+            <div class="item" style="top: 70px; left: 600px">
+                <h3>2023</h3>
+            </div>
+            <div class="item" style="top: 110px; left: 610px">
+                <h3><a href="#">2023-07-25-fishing/</a> (13 items)</h3>
+            </div>
+
+        </div>
+    </main>
+
+    <script>
+        // This keeps items you hover on top of others
+        let z = 1;
+        document.querySelectorAll('.item').forEach(i => {
+            i.onmouseenter = () => i.style.zIndex = ++z;
+        });
+    </script>
+</body>
+</html>
